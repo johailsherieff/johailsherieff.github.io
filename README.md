@@ -48,6 +48,10 @@ Image recognition, is the ability of a machine learning model to identify object
 
 ## Capsule Networks
 
+![Face Capsule](/images/Images/face_capsule.jpg)
+<br/><br/>
+![Face Neuron](/images/Images/face_neuron.jpg)
+<br/><br/>
 ![Inverse_graphics](/images/Images/inverse_graphics.png)
 <br/><br/>
 ![Equivariance](/images/Images/equivariance.png)
