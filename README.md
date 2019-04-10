@@ -41,12 +41,6 @@ x = Conv2D(128, (3, 3), activation='relu')(x)
 x = Dense((512))(x)
 ```
 
-
-
-![Accuracy:](/images/Images/Accuracy.png)<br/>
-&nbsp;&nbsp;
-![Loss:](/images/Images/Loss.png)<br/>
-
 ![CNN Accuracy](/images/Images/cnn_accuracy.png)
 <br/><br/>
 ![CNN Loss](/images/Images/cnn_loss.png)
@@ -71,6 +65,9 @@ Image recognition, is the ability of a machine learning model to identify object
 <br/><br/>
 ![Capsule Loss](/images/Images/capsule_loss.png)
 <br/><br/>
+![Accuracy for CIFAR:](/images/Images/Accuracy.png)<br/>
+&nbsp;&nbsp;
+![Loss for CIFAR:](/images/Images/Loss.png)<br/>
 
 ```javascript
 
