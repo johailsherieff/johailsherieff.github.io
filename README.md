@@ -48,8 +48,6 @@ Image recognition, is the ability of a machine learning model to identify object
 
 ## Capsule Networks
 
-
-
 ```javascript
 """now we reshape it as (batch_size, input_num_capsule, input_dim_capsule)
 then connect a Capsule layer.
@@ -70,6 +68,13 @@ model.summary()
 ```
 
 ## Google Cloud Platform
+
+![Google Architecture:](/images/Images/Cloud_computing.png)<br/>
+&nbsp;&nbsp;
+![GCP Benefits:](/images/Images/GCP_benifits.png)<br/>
+&nbsp;&nbsp;
+![ML Architecture:](/images/Images/ml_architecture.png)<br/>
+
 
 ```javascript
 Cloud SQL Instance for Database(SQL Standard):
