@@ -61,7 +61,7 @@ We intend to create a mobile application which can be used to detect sign langua
 
 Nextly we intend to stack different filters together so as to have a combined effect on the images before they are sent to the convolutional neural network. We intend to implement ensemble methods while simultaneously exploring watershed algorithm and other segmentation results.
 
-# Licensing
+# License
 MIT License
 
 Copyright (c) 2019 Johail Sherieff, Nikunj Lad and Parag Bhingarkar
