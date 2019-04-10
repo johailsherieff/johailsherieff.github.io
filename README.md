@@ -48,7 +48,7 @@ We explored numerous datasets of sign language recognition. We also approched th
 
 # References
 
-1. [Geoffrey E. Hinton, Sara Sabour, Nicholas Frosst Dynamic Routing Between Capsules, 26, October 2017](https://arxiv.org/pdf/1710.09829v1.pdf)
+1. [Geoffrey E. Hinton, Sara Sabour, Nicholas Frosst; Dynamic Routing Between Capsules; 26, October 2017](https://arxiv.org/pdf/1710.09829v1.pdf)
 2. [Capsule Networks: The New Deep Learning Network](https://towardsdatascience.com/capsule-networks-the-new-deep-learning-network-bd917e6818e8)
 3. [GitHub Link for CapsNet Keras](https://github.com/XifengGuo/CapsNet-Keras)
 
