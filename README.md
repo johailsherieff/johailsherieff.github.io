@@ -49,17 +49,17 @@ Image recognition, is the ability of a machine learning model to identify object
 ## Capsule Networks
 
 ![Inverse_graphics](/images/Images/inverse_graphics.png)
-
+<br/><br/>
 ![Equivariance](/images/Images/equivariance.png)
-
+<br/><br/>
 ![Capsules](/images/Images/capsules.png)
-
+<br/><br/>
 ![Dynamic Routing](/images/Images/routing.png)
-
+<br/><br/>
 ![Capsule Accuracy](/images/Images/capsule_accuracy.png)
-
+<br/><br/>
 ![Capsule Loss](/images/Images/capsule_loss.png)
-
+<br/><br/>
 
 ```javascript
 
