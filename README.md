@@ -25,6 +25,9 @@ Developers: Nikunj Lad, Johail Sheriff
 
 A Convolutional Neural Network (ConvNet/CNN) is a Deep Learning algorithm which can take in an input image, assign importance to various aspects/objects in the image and be able to differentiate one from the other. 
 
+## ![Accuracy:](/images/Images/Accuracy.png)<br/>
+&nbsp;&nbsp;
+## ![Loss:](/images/Images/Loss.png)<br/>
 
 
 Image recognition, is the ability of a machine learning model to identify objects, places, people, writing and actions in images. Computers can use computer vision technologies in combination with a camera and artificial intelligence software to achieve image recognition
