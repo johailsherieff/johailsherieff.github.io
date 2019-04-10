@@ -64,7 +64,7 @@ Nextly we intend to stack different filters together so as to have a combined ef
 # Licensing
 MIT License
 
-Copyright (c) 2018 Nikunj Lad & Johail Sherieff
+Copyright (c) 2019 Johail Sherieff, Nikunj Lad and Parag Bhingarkar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
