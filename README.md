@@ -48,10 +48,9 @@ We explored numerous datasets of sign language recognition. We also approched th
 
 # References
 
-1. [Roel Verschaeren, Gesture Recognition using the Microsoft Kinect, 2012](https://www.microsoft.com/en-us/research/publication/robust-part-based-hand-gesture-recognition-using-kinect-sensor-2/)
-2. [L. Pigou et al, Sign Language Recognition Using Convolutional Neural Networks. European Conference on Computer Vision 6-12, September 2014](https://www.semanticscholar.org/paper/Sign-Language-Recognition-Using-Convolutional-Pigou-Dieleman/ee72744bea3c77a8f490d766d87517b1a450d44b)
-3. [Garcia, Brandon and Viesca, Sigberto. Real-time American Sign Language Recognition with Convolutional Neural Networks. In Convolutional Neural Networks for Visual Recognition at Stanford University, 2016](http://cs231n.stanford.edu/reports/2016/pdfs/214_Report.pdf)
-4. [Sawant Pramada, Deshpande Saylee, Nale Pranita, Nerkar Samiksha, Mrs.Archana S. Vaidya: Intelligent Sign Language Recognition Using Image Processing, IOSR Journal of Engineering (IOSRJEN), Vol. 3, Issue 2, February 2013](https://pdfs.semanticscholar.org/ae17/d08cf42fd3ee2c66cfc52b7fddeb5ea6e55a.pdf)
+1. [Geoffrey E. Hinton, Sara Sabour, Nicholas Frosst Dynamic Routing Between Capsules, 26, October 2017 (https://arxiv.org/pdf/1710.09829v1.pdf)
+2. [Capsule Networks: The New Deep Learning Network] (https://towardsdatascience.com/capsule-networks-the-new-deep-learning-network-bd917e6818e8)
+3. [GitHub Link for CapsNet Keras] (https://github.com/XifengGuo/CapsNet-Keras)
 
 # Project scope
 
