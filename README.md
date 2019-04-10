@@ -48,7 +48,21 @@ Image recognition, is the ability of a machine learning model to identify object
 
 ## Capsule Networks
 
+![Inverse_graphics](/images/Images/inverse_graphics.png)
+
+![Equivariance](/images/Images/equivariance.png)
+
+![Capsules](/images/Images/capsules.png)
+
+![Dynamic Routing](/images/Images/routing.png)
+
+![Capsule Accuracy](/images/Images/capsule_accuracy.png)
+
+![Capsule Loss](/images/Images/capsule_loss.png)
+
+
 ```javascript
+
 """now we reshape it as (batch_size, input_num_capsule, input_dim_capsule)
 then connect a Capsule layer.
 the output of final model is the lengths of 10 Capsule, whose dim=16.
