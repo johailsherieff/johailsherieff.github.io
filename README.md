@@ -26,7 +26,6 @@ Developers: Nikunj Lad, Johail Sheriff
 A Convolutional Neural Network (ConvNet/CNN) is a Deep Learning algorithm which can take in an input image, assign importance to various aspects/objects in the image and be able to differentiate one from the other. 
 
 ```javascript
-
 # A common Conv2D model
 input_image = Input(shape=(None, None, 3))
 x = Conv2D(32, (3, 3), activation='relu')(input_image)
@@ -36,7 +35,6 @@ x = AveragePooling2D((2, 2))(x)
 x = Conv2D(128, (3, 3), activation='relu')(x)
 #x = Conv2D(512, (3, 3), activation='relu')(x)
 x = Dense((512))(x)
-
 ```
 
 ## ![Accuracy:](/images/Images/Accuracy.png)<br/>
@@ -50,7 +48,6 @@ Image recognition, is the ability of a machine learning model to identify object
 ## Capsule Networks
 
 ```javascript
-
 """now we reshape it as (batch_size, input_num_capsule, input_dim_capsule)
 then connect a Capsule layer.
 the output of final model is the lengths of 10 Capsule, whose dim=16.
@@ -67,7 +64,6 @@ model = Model(inputs=input_image, outputs=output)
 #adam = K.optimizers.Adam(lr=0.001)
 model.compile(loss=margin_loss, optimizer='adam', metrics=['accuracy'])
 model.summary()
-
 ```
 
 ## Google Cloud Platform
