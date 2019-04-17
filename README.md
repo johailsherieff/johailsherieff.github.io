@@ -61,13 +61,15 @@ Image recognition, is the ability of a machine learning model to identify object
 <br/><br/>
 ![Dynamic Routing](/images/Images/routing.png)
 <br/><br/>
+### Network performace on CIFAR10 dataset
 ![Capsule Accuracy](/images/Images/capsule_accuracy.png)
 <br/><br/>
 ![Capsule Loss](/images/Images/capsule_loss.png)
 <br/><br/>
-![Accuracy for CIFAR:](/images/Images/Accuracy.png)<br/>
+### Network performance on COIL100 dataset
+![Accuracy for CIFAR:](/images/Images/accuracy_coil100)<br/>
 &nbsp;&nbsp;
-![Loss for CIFAR:](/images/Images/Loss.png)<br/>
+![Loss for CIFAR:](/images/Images/loss_coil100.png)<br/>
 
 ```javascript
 
