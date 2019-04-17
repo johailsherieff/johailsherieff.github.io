@@ -64,7 +64,7 @@ Image recognition, is the ability of a machine learning model to identify object
 ### Network performace on CIFAR10 dataset
 ![Capsule Accuracy](/images/Images/Accuracy.png)
 <br/><br/>
-![Capsule Loss](/images/Images/loss.png)
+![Capsule Loss](/images/Images/Loss.png)
 <br/><br/>
 ### Network performance on COIL100 dataset
 ![Accuracy for CIFAR:](/images/Images/accuracy_coil100)<br/>
@@ -125,10 +125,9 @@ Cloud computing is the delivery of computing services for servers, storage, data
 # Datasets
 We explored numerous datasets of sign language recognition. We also approched the American Sign Language association at Northeastern University for help related to sign languages
 
-1. https://cs.nyu.edu/~ylclab/data/norb-v1.0-small/ This database is intended for experiments in 3D object reocgnition from shape.
-2. The dataset we are building contain nearly 1000 images of each monument from a different angle, time of day, lighting conditions.
-3. There will be total 50K images for training and 10K images will be for testing the training model.
-
+1. http://www1.cs.columbia.edu/CAVE/software/softlib/coil-100.php This database is intended for experiments in 3D object reocgnition from shape.
+2. The dataset we are building contain nearly 500-600 images (taken from x,y,z angles) of differenc real-world objects.
+3. We have around 200 different objects and expected number of images is 100,000
 
 # References
 
