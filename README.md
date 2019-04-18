@@ -17,7 +17,9 @@ In terms of resources, we will require an appreciable amount of cloud computing 
 
 For our project, we have taken help from the students of the INFO 6210 class. The team of 11 students are involved in developing and researching on various methods of Maya 3D image scripting along with the database creation for the same. 
 
-Developers: Nikunj Lad, Johail Sheriff, Parag Bhingarkar
+### Developers: 
+
+Nikunj Lad, Johail Sheriff, Parag Bhingarkar
 
 
 # Background Research
