@@ -115,6 +115,11 @@ M/C type : n1-standard-8
 Virtual CPU: 8
 Memory: 50 GB
 ```
+![GCP Benefits:](/images/Images/GCP.png)<br/>
+&nbsp;&nbsp;
+![ML Architecture:](/images/Images/Bucket_Cloud.png)<br/>
+&nbsp;&nbsp;
+![ML Architecture:](/images/Images/Database_Cloud_SQL.png)<br/>
 
 We have implemented the Cloud SQL Database in GCP and have to import the SQL database for the database students created by the AI Skunkworks. And implementing the Cloud ML API and Data Flow API are imported into the GCP to help perform Machine Learning Algorithms.
 
