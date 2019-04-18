@@ -93,12 +93,11 @@ model.summary()
 
 ## Google Cloud Platform
 
-![Google Architecture:](/images/Images/Cloud_computing.png)<br/>
-&nbsp;&nbsp;
 ![GCP Benefits:](/images/Images/GCP_benifits.png)<br/>
 &nbsp;&nbsp;
 ![ML Architecture:](/images/Images/ml_architecture.png)<br/>
 
+Cloud computing is the delivery of computing services for servers, storage, databases, networking, software, analytics, artificial intelligence and moreover deployed in the Internet (“the cloud”) to offer faster innovation and flexible resources.
 
 ```javascript
 Cloud SQL Instance for Database(SQL Standard):
@@ -117,10 +116,7 @@ Virtual CPU: 8
 Memory: 50 GB
 ```
 
-
-
-
-Cloud computing is the delivery of computing services for servers, storage, databases, networking, software, analytics, artificial intelligence and moreover deployed in the Internet (“the cloud”) to offer faster innovation and flexible resources.
+We have implemented the Cloud SQL Database in GCP and have to import the SQL database for the database students created by the AI Skunkworks. And implementing the Cloud ML API and Data Flow API are imported into the GCP to help perform Machine Learning Algorithms.
 
 # Datasets
 We explored numerous datasets of sign language recognition. We also approched the American Sign Language association at Northeastern University for help related to sign languages
