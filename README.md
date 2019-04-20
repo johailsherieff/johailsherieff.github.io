@@ -19,7 +19,7 @@ For our project, we have taken help from the students of the INFO 6210 class. Th
 
 ### Developers: 
 
-Nikunj Lad, Johail Sheriff, Parag Bhingarkar
+Nikunj Lad, Johail Sherieff, Parag Bhingarkar
 
 
 # Background Research
