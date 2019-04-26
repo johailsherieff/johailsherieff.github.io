@@ -29,7 +29,11 @@ Nikunj Lad, Johail Sherieff, Parag Bhingarkar
 
 ## Image Classification using CNNs
 
-A Convolutional Neural Network (ConvNet/CNN) is a Deep Learning algorithm which can take in an input image, assign importance to various aspects/objects in the image and be able to differentiate one from the other. 
+A Convolutional Neural Network (ConvNet/CNN) is a Deep Learning algorithm which can take in an input image, assign importance to different aspects/objects within the image and be able to differentiate one from the other. CNN is used as the default model to deal with images and handles images in differen ways however still it follows the general concept of Neural Networks whenever the neurons are made up of learnable weights and biases. Each neuron takes the image pixel as the input and performs a dot product operation so that each element of the same height/width is multiplied with the same weight and they are summed together. CNN works based on the hidden layers and the fully connected layers.
+
+First of all, hidden layer in artificial neural networks a layer of neurons, whose output is connected to the inputs of other neurons and therefore is not visible as a network output. The hidden layers' job is to transform the inputs into something that the output layer can use and use can apply any function to the layers. The output layer transforms the hidden layer activations into whatever scale you wanted your output to be on.
+
+Neurons in a fully connected layer have full connections to all activations in the previous layer, as seen in regular Neural Networks. Their activations can hence be computed with a matrix multiplication followed by a bias offset. This is a totally general purpose connection pattern and makes no assumptions about the features in the data. It's also very expensive in terms of memory (weights) and computation (connections).
 
 ![CNN:](/images/Images/CNN.png)<br/>
 &nbsp;&nbsp;
@@ -51,8 +55,7 @@ x = Dense((512))(x)
 ![CNN Loss](/images/Images/cnn_loss.png)
 <br/><br/>
 
-Image recognition, is the ability of a machine learning model to identify objects, places, people, writing and actions in images. Computers can use computer vision technologies in combination with a camera and artificial intelligence software to achieve image recognition
-
+Image recognition, is the ability of a machine learning model to identify objects, places, people, writing and actions in images. Computers can use computer vision technologies in combination with a camera and artificial intelligence software to achieve image recognition.
 
 ## Capsule Networks
 
