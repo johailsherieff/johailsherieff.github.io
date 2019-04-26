@@ -89,11 +89,7 @@ We explored numerous datasets of sign language recognition. We also approched th
 
 ## Project scope
 
-The project can be extended over the summer term to modify and experiment over the architecture of capsule networks.
-
-## Next Steps to be taken
-
-We intend to deploy the capsule networks on Google Cloud instance while trying to see it's effect on the dataset generated using MAYA. Also, we intend to create an end-to-end pipeline to have the images fetched from cloud storage and run the algorithm on the GCP instances on cloud. 
+The project can be extended over the summer term to modify and experiment over the architecture of capsule networks for the database created by the students as most of the features are not evenly distributed among the image. Preprocessing the image before giving it to the CNN and Capsule will prove better result to the dataset and experimenting on the dataset will require time.
 
 ## License
 MIT License
