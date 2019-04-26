@@ -87,6 +87,8 @@ We explored numerous datasets of sign language recognition. We also approched th
 2. [Capsule Networks: The New Deep Learning Network](https://towardsdatascience.com/capsule-networks-the-new-deep-learning-network-bd917e6818e8)
 3. [GitHub Link for CapsNet Keras](https://github.com/XifengGuo/CapsNet-Keras)
 
+## Conclusion
+
 ## Project scope
 
 The project can be extended over the summer term to modify and experiment over the architecture of capsule networks for the database created by the students as most of the features are not evenly distributed among the image. Preprocessing the image before giving it to the CNN and Capsule will prove better result to the dataset and experimenting on the dataset will require time.
