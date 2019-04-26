@@ -1,6 +1,7 @@
 # Research Idea
 
 ## Project Description:
+
 #### Goals and objectives
 The aim of this research project is to explore Capsule Networks (CN) and compare its classification performance with respect to Convolutional Neural Networks (CNNs) by identifying 3D images of various objects which are having spatial variances. The idea is to exploit the disadvantage of CNNs i.e. it’s incapability to identify images aligned or positioned differently spatially. We intend to reject the Null hypothesis that CNNs perform great for image classification by proposing an alternate hypothesis of using Capsule Networks which can capture the positional and relative location of elements of an image and help us identify objects with higher accuracy. Lastly, we intend to come up with the scenarios and cases when it is ideal to use CNN and when it is a good choice to use Capsule Networks.
 
@@ -21,8 +22,7 @@ For our project, we have taken help from the students of the INFO 6210 class. Th
 
 Nikunj Lad, Johail Sherieff, Parag Bhingarkar
 
-
-# Background Research
+## Background Research
 
 [Convolutional Neural Networks (CNNs)](https://en.wikipedia.org/wiki/Convolutional_neural_network) having been successful in solving the real world problems of image recognition and classification, and are repeatedly implemented to recognize objects in recent years. However, CNNs have a hard time classifying images if the relative position of elements in the image are changed spatially by adding a rotation factor or a revolutional view of the image. This is due to the fact that the CNNs involve a max-pooling layer which takes away a lot of important information away since we are reducing the image dimensions and keeping only locally important features. So while the images retain the information likes edges, colors, depth etc in different layers, it fails to capture the positional and relative locations of these features with respect to the entire image. This drawback is addressed by capsule networks. Capsule Networks will help in maintaining these positional variances while increasing the classification accuracy of the system.  
 
@@ -39,7 +39,6 @@ A Convolutional Neural Network (ConvNet/CNN) is a Deep Learning algorithm which 
 First of all, hidden layer in artificial neural networks a layer of neurons, whose output is connected to the inputs of other neurons and therefore is not visible as a network output. The hidden layers' job is to transform the inputs into something that the output layer can use and use can apply any function to the layers. The output layer transforms the hidden layer activations into whatever scale you wanted your output to be on.
 
 Neurons in a fully connected layer have full connections to all activations in the previous layer, as seen in regular Neural Networks. Their activations can hence be computed with a matrix multiplication followed by a bias offset. This is a totally general purpose connection pattern and makes no assumptions about the features in the data. It's also very expensive in terms of memory (weights) and computation (connections).
-
 
 ```javascript
 # A common Conv2D model
@@ -66,67 +65,37 @@ A dense layer represents a matrix vector multiplication. The values in the matri
 ![CNN Loss](/images/Images/cnn_loss.png)
 <br/><br/>
 
-
 ## Capsule Networks
 
-[Capsule Netwokrs](./capsulenetworks.html)
-
-
+[Capsule Networks](./capsulenetworks.html)
 
 ## Google Cloud Platform
 
-![GCP Benefits:](/images/Images/GCP_benifits.png)<br/>
-&nbsp;&nbsp;
-![ML Architecture:](/images/Images/ml_architecture.png)<br/>
+[Google Cloud Platfrom](./gcp.html)
 
-Cloud computing is the delivery of computing services for servers, storage, databases, networking, software, analytics, artificial intelligence and moreover deployed in the Internet (“the cloud”) to offer faster innovation and flexible resources.
+## Datasets
 
-```javascript
-Cloud SQL Instance for Database(SQL Standard):
-M/C type : db-n1-standard-4
-RAM(GB) : 15
-Max Storage Capacity: 50 GB
-Max Connections: 4000
-
-We will require Cloud type as : My SQL and Second Generation.
-
-Cloud Storage as a Common database as of now are using our google drive to store and retrieve the data.
-
-Compute Engine Instance for the Capsule Network project:
-M/C type : n1-standard-8
-Virtual CPU: 8
-Memory: 50 GB
-```
-![GCP Benefits:](/images/Images/GCP.png)<br/>
-&nbsp;&nbsp;
-![ML Architecture:](/images/Images/Bucket_Cloud.png)<br/>
-&nbsp;&nbsp;
-![ML Architecture:](/images/Images/Database_Cloud_SQL.png)<br/>
-
-We have implemented the Cloud SQL Database in GCP and have to import the SQL database for the database students created by the AI Skunkworks. And implementing the Cloud ML API and Data Flow API are imported into the GCP to help perform Machine Learning Algorithms.
-
-# Datasets
 We explored numerous datasets of sign language recognition. We also approched the American Sign Language association at Northeastern University for help related to sign languages
 
 1. http://www1.cs.columbia.edu/CAVE/software/softlib/coil-100.php This database is intended for experiments in 3D object reocgnition from shape.
 2. The dataset we are building contain nearly 500-600 images (taken from x,y,z angles) of differenc real-world objects.
 3. We have around 200 different objects and expected number of images is 100,000
 
-# References
+## References
 
 1. [Geoffrey E. Hinton, Sara Sabour, Nicholas Frosst; Dynamic Routing Between Capsules; 26, October 2017](https://arxiv.org/pdf/1710.09829v1.pdf)
 2. [Capsule Networks: The New Deep Learning Network](https://towardsdatascience.com/capsule-networks-the-new-deep-learning-network-bd917e6818e8)
 3. [GitHub Link for CapsNet Keras](https://github.com/XifengGuo/CapsNet-Keras)
 
-# Project scope
+## Project scope
 
 The project can be extended over the summer term to modify and experiment over the architecture of capsule networks.
 
-# Next Steps to be taken
+## Next Steps to be taken
 
 We intend to deploy the capsule networks on Google Cloud instance while trying to see it's effect on the dataset generated using MAYA. Also, we intend to create an end-to-end pipeline to have the images fetched from cloud storage and run the algorithm on the GCP instances on cloud. 
 
-# License
+## License
 MIT License
 
 Copyright (c) 2019 Johail Sherieff, Nikunj Lad and Parag Bhingarkar
