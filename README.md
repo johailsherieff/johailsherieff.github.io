@@ -77,9 +77,9 @@ A dense layer represents a matrix vector multiplication. The values in the matri
 
 We explored numerous datasets of sign language recognition. We also approched the American Sign Language association at Northeastern University for help related to sign languages
 
-1. http://www1.cs.columbia.edu/CAVE/software/softlib/coil-100.php This database is intended for experiments in 3D object reocgnition from shape.
+1. [This database is intended for experiments in 3D object reocgnition from shape.](http://www1.cs.columbia.edu/CAVE/software/softlib/coil-100.php)
 2. The dataset we are building contain nearly 500-600 images (taken from x,y,z angles) of differenc real-world objects.
-3. We have around 200 different objects and expected number of images is 100,000
+3. We have managed a group of 11 students to create database of 3D images with the help of Maya. [Link](https://sindhurakolli.github.io/DMDD_portfolio/)
 
 ## References
 
