@@ -71,7 +71,7 @@ A dense layer represents a matrix vector multiplication. The values in the matri
 
 ## Google Cloud Platform
 
-[Google Cloud Platfrom](./gcp.html)
+[Google Cloud Platfrom](./googlecloudplatform.html)
 
 ## Datasets
 
