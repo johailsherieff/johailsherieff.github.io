@@ -69,7 +69,7 @@ A dense layer represents a matrix vector multiplication. The values in the matri
 
 ## Capsule Networks
 
-[Capsule Netwokrs](./capsulnetworks.html)
+[Capsule Netwokrs](./capsulenetworks.html)
 
 ![Face Neuron](/images/Images/face_neuron.jpg)
 <br/><br/>
