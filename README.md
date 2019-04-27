@@ -60,11 +60,6 @@ Similar to max pooling layers, Average Pooling layers are used to reduce the spa
 
 A dense layer represents a matrix vector multiplication. The values in the matrix are the trainable parameters which get updated during backpropagation.
 
-![CNN Accuracy](/images/Images/cnn_accuracy.png)
-<br/><br/>
-![CNN Loss](/images/Images/cnn_loss.png)
-<br/><br/>
-
 ## Capsule Networks
 
 [Capsule Networks](./capsulenetworks.html)
