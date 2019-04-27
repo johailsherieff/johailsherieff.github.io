@@ -68,7 +68,7 @@ A dense layer represents a matrix vector multiplication. The values in the matri
 
 [Google Cloud Platfrom](./googlecloudplatform.html)
 
-## Datasets
+## Contributions
 
 We explored numerous datasets of sign language recognition. We also approched the American Sign Language association at Northeastern University for help related to sign languages
 
@@ -83,6 +83,8 @@ We explored numerous datasets of sign language recognition. We also approched th
 3. [GitHub Link for CapsNet Keras](https://github.com/XifengGuo/CapsNet-Keras)
 
 ## Conclusion
+
+
 
 ## Project scope
 
