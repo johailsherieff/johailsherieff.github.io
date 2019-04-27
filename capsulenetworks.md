@@ -1,5 +1,7 @@
 ## Capsule Networks
 
+Capsule Network is made of capsules rather than neurons. A capsule is a small group of neurons that learns to detect a particular object within a given region of the image, and it outputs a vector whose length represents the estimated probability that the object is present in that region, and the pose parameters of objects are encoded from orientation of object. If the object is changed slightly then the capsule will output a vector of the same length, but oriented slightly differently.
+
 ![Face Neuron](/images/Images/face_neuron.jpg)
 <br/><br/>
 ![Inverse_graphics](/images/Images/inverse_graphics.png)
