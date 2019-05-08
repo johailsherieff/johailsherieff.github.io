@@ -4,8 +4,6 @@ Capsule Network is made of capsules rather than neurons. A capsule is a small gr
 
 ![Face Neuron](/images/Images/face_neuron.jpg)
 <br/><br/>
-![Dynamic Routing](/images/Images/routing.png)
-<br/><br/>
 
 ### Network performace on CIFAR10 dataset
 
