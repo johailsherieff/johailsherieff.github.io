@@ -2,20 +2,24 @@
 
 Capsule Network is made of capsules rather than neurons. A capsule is a small group of neurons that learns to detect a particular object within a given region of the image, and it outputs a vector whose length represents the estimated probability that the object is present in that region, and the pose parameters of objects are encoded from orientation of object. If the object is changed slightly then the capsule will output a vector of the same length, but oriented slightly differently.
 
-![Face Neuron](/images/Images/face_neuron.jpg)
+![Face Features](/images/Images/face_image.jpg)
 <br/><br/>
 
-### Network performace on CIFAR10 dataset
 
-![Capsule Accuracy CIFAR](/images/Images/Accuracy.png)
+### Network performace of ConvNets on Coil100 dataset
+
+![Accuracy for COIL100](/images/Images/accuracy_coil.png)
 <br/><br/>
-![Capsule Loss CIFAR](/images/Images/Loss.png)
+![ConvNets for COIL100](/images/Images/conv_net_loss.png)
 <br/><br/>
 
 ### Network performance on COIL100 dataset
-![Accuracy for Coid100:](/images/Images/accuracy_coil100.png)<br/>
-&nbsp;&nbsp;
-![Loss for Coil100:](/images/Images/loss_coil100.png)<br/>
+
+![Accuracy for COIL100:](/images/Images/accuracy_coil100.png)
+<br/><br/>
+![Loss for COIL100:](/images/Images/loss_coil100.png)
+<br/><br/>
+
 
 ```javascript
 
