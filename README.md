@@ -15,7 +15,6 @@ The system will be difficult to predict or translate 3D objects in very bright l
 In terms of resources, we will require an appreciable amount of cloud computing power. This is because of the fact that training a vast set of 3D images will require significant space and compute power. 
 
 #### People and Organizations Involved
-
 For our project, we have taken help from the students of the INFO 6210 class. The team of 11 students are involved in developing and researching on various methods of Maya 3D image scripting along with the database creation for the same. 
 
 ### Developers: 
@@ -58,7 +57,7 @@ The Rectified Linear Unit (ReLU) is the most commonly used activation function i
 
 Similar to max pooling layers, Average Pooling layers are used to reduce the spatial dimensions of a three-dimensional tensor. However, Average Pooling layers perform a more extreme type of dimensionality reduction, where a tensor with dimensions h×w×d is reduced in size to have dimensions 1×1×d. Average Pooling layers reduce each h×w feature map to a single number by simply taking the average of all hw values.
 
-A dense layer represents a matrix vector multiplication. The values in the matrix are the trainable parameters which get updated during backpropagation.
+Finally, dense layers at the top of the network will combine very high level features and produce classification predictions. A dense layer represents a matrix vector multiplication. The values in the matrix are the trainable parameters which get updated during backpropagation.
 
 ## Capsule Networks
 
@@ -77,6 +76,10 @@ We explored numerous datasets of sign language recognition. We also approched th
 1. [Geoffrey E. Hinton, Sara Sabour, Nicholas Frosst; Dynamic Routing Between Capsules; 26, October 2017](https://arxiv.org/pdf/1710.09829v1.pdf)
 2. [Capsule Networks: The New Deep Learning Network](https://towardsdatascience.com/capsule-networks-the-new-deep-learning-network-bd917e6818e8)
 3. [GitHub Link for CapsNet Keras](https://github.com/XifengGuo/CapsNet-Keras)
+
+## Result
+
+![Result Table:](/images/Images/table.png)<br/>
 
 ## Conclusion
 
