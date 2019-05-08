@@ -79,7 +79,7 @@ We explored numerous datasets of sign language recognition. We also approched th
 
 ## Result
 
-![Result Table:](/images/Images/table.png)<br/>
+![Result Table:](/images/Images/table.PNG)<br/>
 
 ## Conclusion
 
