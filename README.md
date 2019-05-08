@@ -64,10 +64,6 @@ A dense layer represents a matrix vector multiplication. The values in the matri
 
 [Capsule Networks](./capsulenetworks.html)
 
-## Google Cloud Platform
-
-[Google Cloud Platfrom](./googlecloudplatform.html)
-
 ## Contributions
 
 We explored numerous datasets of sign language recognition. We also approched the American Sign Language association at Northeastern University for help related to sign languages
@@ -84,7 +80,7 @@ We explored numerous datasets of sign language recognition. We also approched th
 
 ## Conclusion
 
-
+The research typically helped us understand the effect of Convolutional Neural Networks on images with positional variances and how such variances can be preserved using Capsule Networks. Convolutional Neural Networks works well on large datasets and takes less computational time whereas Capsule Networks although requiring less data are computationally expensive. 
 
 ## Project scope
 
