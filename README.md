@@ -78,7 +78,7 @@ Capsule Network is made of capsules rather than neurons. A capsule is a small gr
 ![ConvNets for COIL100](/images/Images/conv_net_loss.png)
 <br/><br/>
 
-### Network performance on COIL100 dataset
+### Network performance of Capsules on COIL100 dataset
 
 ![Accuracy for COIL100:](/images/Images/accuracy_coil100.png)
 <br/><br/>
