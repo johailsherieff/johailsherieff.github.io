@@ -70,6 +70,8 @@ Capsule Network is made of capsules rather than neurons. A capsule is a small gr
 
 ![Face Features](/images/Images/face_image.png)
 <br/><br/>
+![Kim](/images/Images/kim.png)
+<br/><br/>
 
 
 ### Network performace of ConvNets on Coil100 dataset
