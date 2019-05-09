@@ -40,28 +40,73 @@ First of all, hidden layer in artificial neural networks a layer of neurons, who
 Neurons in a fully connected layer have full connections to all activations in the previous layer, as seen in regular Neural Networks. Their activations can hence be computed with a matrix multiplication followed by a bias offset. This is a totally general purpose connection pattern and makes no assumptions about the features in the data. It's also very expensive in terms of memory (weights) and computation (connections).
 
 ```javascript
+batch_size = 16
+num_classes = 100
+epochs = 50
+
 # A common Conv2D model
-input_image = Input(shape=(None, None, 3))
-x = Conv2D(32, (3, 3), activation='relu')(input_image)
-x = Conv2D(64, (3, 3), activation='relu')(x)
-#x = Conv2D(128, (3, 3), activation='relu')(x)
-x = AveragePooling2D((2, 2))(x)
+input_image = Input(shape=(128,128, 3))
+x = Conv2D(64, (5, 5), activation='relu')(input_image)
+#x= MaxPooling2D((2,2))(x)
 x = Conv2D(128, (3, 3), activation='relu')(x)
+x = Dropout(0.2)(x)
+#x = Conv2D(256, (3, 3), activation='relu')(x)
+x = MaxPooling2D((3, 3))(x)
+#x = Conv2D(256, (3, 3), activation='relu')(x)
+x = Dropout(0.2)(x)
+#x = MaxPooling2D((2, 2))(x)
 #x = Conv2D(512, (3, 3), activation='relu')(x)
+#x = Dense((128))(x)
 x = Dense((512))(x)
+
 ```
 
 The dataset for our project would be 3D images and the CNN architecture would look like the above code snippet where we are using the Relu Activation Layer, Average Pooling and a Dense Layer. There are many different layers but this what our CNN architecture looks like and we would not go in depth of each layer as we will explain the layers we have used for our project.
 
-The Rectified Linear Unit (ReLU) is the most commonly used activation function in deep learning models. The function returns 0 if it receives any negative input, but for any positive value  x  it returns that value back. So it can be written as  f(x)=max(0,x) .
-
-Similar to max pooling layers, Average Pooling layers are used to reduce the spatial dimensions of a three-dimensional tensor. However, Average Pooling layers perform a more extreme type of dimensionality reduction, where a tensor with dimensions h×w×d is reduced in size to have dimensions 1×1×d. Average Pooling layers reduce each h×w feature map to a single number by simply taking the average of all hw values.
-
-Finally, dense layers at the top of the network will combine very high level features and produce classification predictions. A dense layer represents a matrix vector multiplication. The values in the matrix are the trainable parameters which get updated during backpropagation.
-
 ## Capsule Networks
 
-[Capsule Networks](./capsulenetworks.html)
+Capsule Network is made of capsules rather than neurons. A capsule is a small group of neurons that learns to detect a particular object within a given region of the image, and it outputs a vector whose length represents the estimated probability that the object is present in that region, and the pose parameters of objects are encoded from orientation of object. If the object is changed slightly then the capsule will output a vector of the same length, but oriented slightly differently.
+
+![Face Features](/images/Images/face_image.png)
+<br/><br/>
+
+
+### Network performace of ConvNets on Coil100 dataset
+
+![Accuracy for COIL100](/images/Images/accuracy_coil.png)
+<br/><br/>
+![ConvNets for COIL100](/images/Images/conv_net_loss.png)
+<br/><br/>
+
+### Network performance on COIL100 dataset
+
+![Accuracy for COIL100:](/images/Images/accuracy_coil100.png)
+<br/><br/>
+![Loss for COIL100:](/images/Images/loss_coil100.png)
+<br/><br/>
+
+
+```javascript
+
+"""now we reshape it as (batch_size, input_num_capsule, input_dim_capsule)
+then connect a Capsule layer.
+
+the output of final model is the lengths of 10 Capsule, whose dim=16.
+
+the length of Capsule is the proba,
+so the problem becomes a 10 two-classification problem.
+"""
+
+x = Reshape((-1, 128))(x)
+capsule = Capsule(num_classes, 32, 3, True)(x)
+output = Lambda(lambda z: K.sqrt(K.sum(K.square(z), 2)))(capsule)
+model = Model(inputs=input_image, outputs=output)
+
+# we use a margin loss
+#adam = K.optimizers.Adam(lr=0.001)
+model.compile(loss=margin_loss, optimizer='adam', metrics=['accuracy'])
+model.summary()
+```
 
 ## Contributions
 
