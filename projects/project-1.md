@@ -11,7 +11,7 @@ labels:
   - Python
   - AWS
   - Neural Networks
-summary: The aim of this research project is to explore Capsule Networks (CN) and compare its classification performance with respect to Convolutional Neural Networks (CNNs) by identifying 3D images of various objects which are having spatial variances. The idea is to exploit the disadvantage of CNNs i.e. it’s incapability to identify images aligned or positioned differently spatially. We intend to reject the Null hypothesis that CNNs perform great for image classification by proposing an alternate hypothesis of using Capsule Networks which can capture the positional and relative location of elements of an image and help us identify objects with higher accuracy. Lastly, we intend to come up with the scenarios and cases when it is ideal to use CNN and when it is a good choice to use Capsule Networks.
+summary: The aim of this research project is to explore Capsule Networks (CNs) and compare its classification performance with respect to Convolutional Neural Networks (CNNs) by identifying 3D images of various objects which are having spatial variances. The idea is to exploit the trade offs between CNs and CNNs i.e. to find the accuracy of model to identify images aligned or positioned differently spatially.
 ---
 
 <div class="ui small rounded images">
