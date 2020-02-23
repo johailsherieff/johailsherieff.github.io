@@ -17,16 +17,13 @@ summary: The aim of this research project is to explore Capsule Networks (CN) an
 <div class="ui small rounded images">
   <img class="ui image" src="../images/CNN.png">
   <img class="ui image" src="../images/Capsule-Network-Architecture.png">
-  <img class="ui image" src="../images/Object_Detection.jpg">
+  <img class="ui image" src="../images/Object_Detection.png">
   <img class="ui image" src="../images/accuracy_coil.png">
 </div>
 
 Image recognition using CNN and CN is the ability of a machine learning model to identify objects, places, people, writing and actions in images. Computers can use computer vision technologies in combination with a camera and artificial intelligence software to achieve image recognition.
 
 A Convolutional Neural Network (ConvNet/CNN) is a Deep Learning algorithm which can take in an input image, assign importance to different aspects/objects within the image and be able to differentiate one from the other. CNN is used as the default model to deal with images and handles images in differen ways however still it follows the general concept of Neural Networks whenever the neurons are made up of learnable weights and biases. Each neuron takes the image pixel as the input and performs a dot product operation so that each element of the same height/width is multiplied with the same weight and they are summed together. CNN works based on the hidden layers and the fully connected layers.
-
-![CNN:](../images/CNN.png)<br/>
-&nbsp;&nbsp;
 
 ```javascript
 # A common Conv2D model
@@ -56,9 +53,3 @@ model = Model(inputs=input_image, outputs=output)
 model.compile(loss=margin_loss, optimizer='adam', metrics=['accuracy'])
 model.summary()
 ```
-
-### Network performance on COIL100 dataset
-![Accuracy for CapsNet:](../images/accuracy_coil100.png)<br/>
-&nbsp;&nbsp;
-![Loss for CapsNet:](../images/loss_coil100.png)<br/>
-
