@@ -29,7 +29,25 @@
   },
   "interests": [
     {
-      "name": ["Software Development","Business Intelligence", "Data Engineering", "Machine Learning"]
+      "name": " Software Development, , and 
+",
+      "keywords":[
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Business Intelligence",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Data Engineering",
+      keywords:[
+        ]
     }
   ],
   "skills": [
