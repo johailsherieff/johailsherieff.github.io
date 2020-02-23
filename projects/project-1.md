@@ -15,10 +15,10 @@ summary: The aim of this research project is to explore Capsule Networks (CN) an
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="../images/CNN.png">
+  <img class="ui image" src="../images/Capsule-Network-Architecture.png">
+  <img class="ui image" src="../images/Object_Detection.jpg">
+  <img class="ui image" src="../images/accuracy_coil.png">
 </div>
 
 Image recognition using CNN and CN is the ability of a machine learning model to identify objects, places, people, writing and actions in images. Computers can use computer vision technologies in combination with a camera and artificial intelligence software to achieve image recognition.
