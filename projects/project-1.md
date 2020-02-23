@@ -2,15 +2,16 @@
 layout: project
 type: project
 image: images/micromouse.jpg
-title: Micromouse
+title: 3D Object Detection
 permalink: projects/micromouse
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2019-01-05
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Machine Learning
+  - Python
+  - AWS
+  - Neural Networks
+summary: The aim of this research project is to explore Capsule Networks (CN) and compare its classification performance with respect to Convolutional Neural Networks (CNNs) by identifying 3D images of various objects which are having spatial variances. The idea is to exploit the disadvantage of CNNs i.e. it’s incapability to identify images aligned or positioned differently spatially. We intend to reject the Null hypothesis that CNNs perform great for image classification by proposing an alternate hypothesis of using Capsule Networks which can capture the positional and relative location of elements of an image and help us identify objects with higher accuracy. Lastly, we intend to come up with the scenarios and cases when it is ideal to use CNN and when it is a good choice to use Capsule Networks.
 ---
 
 <div class="ui small rounded images">
@@ -20,25 +21,44 @@ summary: My team developed a robotic mouse that won first place in the 2015 UH M
   <img class="ui image" src="../images/micromouse-circuit.png">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+Image recognition using CNN and CN is the ability of a machine learning model to identify objects, places, people, writing and actions in images. Computers can use computer vision technologies in combination with a camera and artificial intelligence software to achieve image recognition.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+A Convolutional Neural Network (ConvNet/CNN) is a Deep Learning algorithm which can take in an input image, assign importance to different aspects/objects within the image and be able to differentiate one from the other. CNN is used as the default model to deal with images and handles images in differen ways however still it follows the general concept of Neural Networks whenever the neurons are made up of learnable weights and biases. Each neuron takes the image pixel as the input and performs a dot product operation so that each element of the same height/width is multiplied with the same weight and they are summed together. CNN works based on the hidden layers and the fully connected layers.
 
-Here is some code that illustrates how we read values from the line sensors:
+![CNN:](../images/CNN.png)<br/>
+&nbsp;&nbsp;
 
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
+```javascript
+# A common Conv2D model
+input_image = Input(shape=(None, None, 3))
+x = Conv2D(32, (3, 3), activation='relu')(input_image)
+x = Conv2D(64, (3, 3), activation='relu')(x)
+#x = Conv2D(128, (3, 3), activation='relu')(x)
+x = AveragePooling2D((2, 2))(x)
+x = Conv2D(128, (3, 3), activation='relu')(x)
+#x = Conv2D(512, (3, 3), activation='relu')(x)
+x = Dense((512))(x)
 ```
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+The dataset for our project would be 3D images and the CNN architecture would look like the above code snippet where we are using the Relu Activation Layer, Average Pooling and a Dense Layer. There are many different layers but this what our CNN architecture looks like and we would not go in depth of each layer as we will explain the layers we have used for our project.
 
 
+Capsule Network(CapsNet/CN) is made of capsules rather than neurons. A capsule is a small group of neurons that learns to detect a particular object within a given region of the image, and it outputs a vector whose length represents the estimated probability that the object is present in that region, and the pose parameters of objects are encoded from orientation of object. If the object is changed slightly then the capsule will output a vector of the same length, but oriented slightly differently.
+
+```
+x = Reshape((-1, 128))(x)
+capsule = Capsule(10, 32, 3, True)(x)
+output = Lambda(lambda z: K.sqrt(K.sum(K.square(z), 2)))(capsule)
+model = Model(inputs=input_image, outputs=output)
+
+# we use a margin loss
+#adam = K.optimizers.Adam(lr=0.001)
+model.compile(loss=margin_loss, optimizer='adam', metrics=['accuracy'])
+model.summary()
+```
+
+### Network performance on COIL100 dataset
+![Accuracy for CapsNet:](../images/accuracy_coil100.png)<br/>
+&nbsp;&nbsp;
+![Loss for CapsNet:](../images/loss_coil100.png)<br/>
 
