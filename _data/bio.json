@@ -27,6 +27,11 @@
       }
     ]
   },
+  "interests": [
+    {
+      "name": ["Software Development","Business Intelligence", "Data Engineering", "Machine Learning"]
+    }
+  ],
   "skills": [
     {
       "name": "Programming Skills",
