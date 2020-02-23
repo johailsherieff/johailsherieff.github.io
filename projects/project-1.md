@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/deep_learning.jpeg
 title: 3D Object Detection
 permalink: projects/micromouse
 # All dates must be YYYY-MM-DD format!
