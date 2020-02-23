@@ -171,9 +171,8 @@
       "startDate": "2018-09-04",
       "endDate": "Present",
       "gpa": "3.4",
-      "courses": ["Application Engineering and Development", "Big Data Systems & Intelligence Analytics", "Data Science Engineering Methods and Tools",
-                  "Database Management and Database Design", "Designing Data Architecture and Business Intelligence", "Engineering Big-Data Systems", 
-                  "Web Development Tools & Methods"
+      "courses": ["Big Data Systems & Intelligence Analytics", "Data Science Engineering Methods and Tools","Database Management and Database Design", 
+                  "Designing Data Architecture and Business Intelligence", "Engineering Big-Data Systems","Web Development Tools & Methods"
       ]
     },
     {
@@ -183,9 +182,8 @@
       "startDate": "2013-08-13",
       "endDate": "Present",
       "gpa": "3.3",
-      "courses": ["Data Mining and Data Warehousing", "Design and Analysis of Algorithms", "Object-Oriented Programming", 
-                  "Probability and Statistics", "Data Structure", "Computer Architecture", "Operating Systems", "Business Communications",
-                  "Software Development and Project Management", "Computer Networks", "Formal Languages and Automata", "Cryptography"
+      "courses": ["Design and Analysis of Algorithms", "Object-Oriented Programming", 
+                  "Probability and Statistics", "Data Structure", "Computer Architecture", "Operating Systems", "Cryptography"
       ]
     }
   ],
