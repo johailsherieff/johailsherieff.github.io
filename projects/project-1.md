@@ -3,11 +3,11 @@ layout: project
 type: project
 image: images/deep_learning.jpeg
 title: 3D Object Detection
-permalink: projects/micromouse
+permalink: link?
 # All dates must be YYYY-MM-DD format!
 date: 2019-01-05
 labels:
-  - Machine Learning
+  - Deep Learning
   - Python
   - AWS
   - Neural Networks
