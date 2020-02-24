@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/humanorbot.png
+image: images/humanorbot.jpg
 title: Kaggle Competition - Human or Bot
 permalink: projects/Kaggle Competition - Human or Bot
 # All dates must be YYYY-MM-DD format!
