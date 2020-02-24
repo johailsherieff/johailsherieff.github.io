@@ -26,4 +26,4 @@ In this project I gained experience with hadoop ecosystem, mapreduce algorithms,
 Crawled data from web sources OpenStreetMap and Numbeo using Jsoup to extract OSM data to MongoDB. Executed Map-Reduce algorithm on 100 GB data and map it to required tokens to perform quantitative analytics. Implemented Spatial Join function to get details of city and speeding up polygon query using Spatial Hadoop.
 
  
-Source: <a href="https://github.com/johailsherieff/"><i class="large github icon"></i>theVacay/vacay</a>
+Source: <a href="https://github.com/johailsherieff/Ranking_Quality_of_Life"><i class="large github icon"></i>Project Link</a>
