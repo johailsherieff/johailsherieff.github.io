@@ -1,25 +1,26 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: Vacay
+image: images/BigData.png
+title: Ranking Cities on Quality of Life
 permalink: projects/vacay
 # All dates must be YYYY-MM-DD format!
 date: 2015-12-15
 labels:
-  - Javascript
-  - Meteor
+  - Hadoop
+  - Java
   - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - PIG
+  - Spark
+summary: Designed a quailty of life index and ranked cities based on it.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<img class="ui medium right floated rounded image" src="../images/numbeno.jpg">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+Numbeo is the world’s largest database of user contributed data about cities and countries worldwide. Numbeo provides current and timely information on world living conditions including cost of living, housing indicators, health care, traffic, crime and pollution.
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+Open Street Map 
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
+In this project I gained experience with hadoop ecosystem, mapreduce algorithms, run mapreduce jobs in PIG scripts, including MongoDB for database storage and Spark for mapping and reducing spatial joins based on locations. 
  
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+Source: <a href="https://github.com/johailsherieff/ranking"><i class="large github icon"></i>theVacay/vacay</a>
