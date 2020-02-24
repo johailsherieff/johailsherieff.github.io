@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/3D_Object_Detection
+image: images/deep_learning.jpeg
 title: 3D_Object_Detection
 permalink: projects/3D_Object_Detection
 # All dates must be YYYY-MM-DD format!
