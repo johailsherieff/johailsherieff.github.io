@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/deep_learning.jpeg
 title: 3D Object Detection
-permalink: link?
+permalink: projects/3DObjectDetection.md
 # All dates must be YYYY-MM-DD format!
 date: 2019-01-05
 labels:
