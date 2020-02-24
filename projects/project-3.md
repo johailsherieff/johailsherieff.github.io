@@ -1,61 +1,28 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
-title: Cotton
-permalink: projects/cotton
+image: images/HumanOrBot.png
+title: Kaggle Competition - Human or Bot
+permalink: projects/Kaggle Competition - Human or Bot
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2019-02-11
 labels:
-  - Lisp
+  - Python
+  - Scikit-Learn
+  - XGBoost
+  - Random Forest
+  - H2O.ai
   - GitHub
-summary: A text adventure game I developed for ICS 313.
+summary: The goal of this competition is to identify online auction bids that are placed by "bots", helping the site owners easily flag these users for removal from their site to prevent unfair auction activity. 
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+<img class="ui image" src="{{ site.baseurl }}/images/Kaggle.png">
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+Facebook and kaggle launced a compititon in 2015 to detect the bot activity from an online auction. Human bidders were getting frustrated with the inability to win auctions because of their software controlled opponents. So the objective of this competition is to classify which bids are made by bots and which bids are made by humans. Intially in the training set I had 9 columns giving a brief idea about the auctions. Before building the machine learning model I perfomed feature engineering to help classification model get better picture of the auction. Initially I was using H2O AutoML to test the our predictions and get idea about how our feature engineering resulted. After running the model on H2O and also ran the model using scikit learn libraries.
 
-To give you a flavor of the game, here is an excerpt from one run:
+I implemeted the following models - Gradient Boosting machine , Extreme Gradient Boosting, Random forest, Adaptive boosting, Caliberative classifier and Bagging classifier.
 
-<hr>
+I trained and designed multiple machine learning models. The main objective of the challenge was to classify whether the bidder is a human or bot. The feature engineering improved the performance of all models. I trained models with and without hyperparameter tuning. After hyper parameter tuning the model imporved even better. For our base model was a XGBoost of 15 iterations to get an AUC of 0.938 and on private leaderboard it places us on 15th position. So to improve the AUC tuned the hyper parameters of various models as a ensemble of models, after hyperparameter tuning the best AUC was 0.9388 and on private leaderboard I stand at 12th position.
 
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
-
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
+Source: <a href="https://github.com/johailsherieff/Facebook_IV_Human_or_Bot-Kaggle_Competition/Assignment_2_HumanVsBot_Kaggle.ipynb"><i class="large github icon "></i>Python Notebook Is Available</a>
 
