@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/BigData.png
+image: images/BigData.jpg
 title: Ranking Cities on Quality of Life
 permalink: projects/project-2.md
 # All dates must be YYYY-MM-DD format!
