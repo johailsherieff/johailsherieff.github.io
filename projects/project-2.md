@@ -12,7 +12,7 @@ labels:
   - MongoDB
   - PIG
   - Spark
-summary: Developed a system that find quailty of life index and ranked cities based on it.
+summary: Developed a system to calculate the quailty of life index based on scraped data from Numbeo and OpenStreetMap to rank cities using MapReduce algoirthm.
 ---
 
 <img class="ui medium right floated rounded image" src="../images/numbeno.jpg">
