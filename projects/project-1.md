@@ -15,15 +15,15 @@ summary: The aim of this research project is to explore Capsule Networks (CNs) a
 ---
 
 <div class="ui large rounded images">
-  <img class="ui image" src="../images/CNN.png">
-  <img class="ui image" src="../images/Capsule-Network-Architecture.png">
   <img class="ui image" src="../images/Object_Detection.png">
-  <img class="ui image" src="../images/accuracy_coil.png">
 </div>
 
 Image recognition using CNN and CN is the ability of a machine learning model to identify objects, places, people, writing and actions in images. Computers can use computer vision technologies in combination with a camera and artificial intelligence software to achieve image recognition.
 
 A Convolutional Neural Network (ConvNet/CNN) is a Deep Learning algorithm which can take in an input image, assign importance to different aspects/objects within the image and be able to differentiate one from the other. CNN is used as the default model to deal with images and handles images in differen ways however still it follows the general concept of Neural Networks whenever the neurons are made up of learnable weights and biases. Each neuron takes the image pixel as the input and performs a dot product operation so that each element of the same height/width is multiplied with the same weight and they are summed together. CNN works based on the hidden layers and the fully connected layers.
+<div class="ui large rounded images">
+  <img class="ui image" src="../images/Capsule-Network-Architecture.png">
+</div>
 
 ```javascript
 # A common Conv2D model
@@ -41,6 +41,9 @@ The dataset for our project would be 3D images and the CNN architecture would lo
 
 
 Capsule Network(CapsNet/CN) is made of capsules rather than neurons. A capsule is a small group of neurons that learns to detect a particular object within a given region of the image, and it outputs a vector whose length represents the estimated probability that the object is present in that region, and the pose parameters of objects are encoded from orientation of object. If the object is changed slightly then the capsule will output a vector of the same length, but oriented slightly differently.
+<div class="ui large rounded images">
+  <img class="ui image" src="../images/Capsule-Network-Architecture.png">
+</div>
 
 ```
 x = Reshape((-1, 128))(x)
@@ -53,3 +56,7 @@ model = Model(inputs=input_image, outputs=output)
 model.compile(loss=margin_loss, optimizer='adam', metrics=['accuracy'])
 model.summary()
 ```
+
+<div class="ui large rounded images">
+  <img class="ui image" src="../images/accuracy_coil.png">
+</div>
