@@ -11,6 +11,7 @@ labels:
   - Python
   - AWS
   - Neural Networks
+  - GitHub
 summary: The aim of this research project is to explore Capsule Networks (CNs) and compare its classification performance with respect to Convolutional Neural Networks (CNNs) by identifying 3D images of various objects which are having spatial variances.
 ---
 
