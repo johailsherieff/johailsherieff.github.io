@@ -14,7 +14,7 @@ labels:
 summary: The aim of this research project is to explore Capsule Networks (CNs) and compare its classification performance with respect to Convolutional Neural Networks (CNNs) by identifying 3D images of various objects which are having spatial variances. The idea is to exploit the trade offs between CNs and CNNs i.e. to find the accuracy of model to identify images aligned or positioned differently spatially.
 ---
 
-<div class="ui small rounded images">
+<div class="ui large rounded images">
   <img class="ui image" src="../images/CNN.png">
   <img class="ui image" src="../images/Capsule-Network-Architecture.png">
   <img class="ui image" src="../images/Object_Detection.png">
