@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/BigData.jpg
 title: Ranking Cities on Quality of Life
-permalink: projects/Ranking Cities on Quality of Life
+permalink: projects/Ranking%20Cities%20on%20Quality%20of%20Life
 # All dates must be YYYY-MM-DD format!
 date: 2019-05-15
 labels:
