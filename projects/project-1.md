@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/3D_Object_Detection
 title: 3D_Object_Detection
-permalink: projects/project-1
+permalink: projects/3D_Object_Detection
 # All dates must be YYYY-MM-DD format!
 date: 2019-01-05
 labels:
