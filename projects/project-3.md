@@ -16,7 +16,7 @@ labels:
 summary: The goal of this competition is to identify online auction bids that are placed by "bots", helping the site owners easily flag these users for removal from their site to prevent unfair auction activity. 
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/Kaggle.png">
+<img class="ui image" src="../images/Kaggle.png">
 
 Facebook and kaggle launced a compititon in 2015 to detect the bot activity from an online auction. Human bidders were getting frustrated with the inability to win auctions because of their software controlled opponents. So the objective of this competition is to classify which bids are made by bots and which bids are made by humans. Intially in the training set I had 9 columns giving a brief idea about the auctions. Before building the machine learning model I perfomed feature engineering to help classification model get better picture of the auction. Initially I was using H2O AutoML to test the our predictions and get idea about how our feature engineering resulted. After running the model on H2O and also ran the model using scikit learn libraries.
 
