@@ -22,7 +22,7 @@ Image recognition using CNN and CN is the ability of a machine learning model to
 
 A Convolutional Neural Network (ConvNet/CNN) is a Deep Learning algorithm which can take in an input image, assign importance to different aspects/objects within the image and be able to differentiate one from the other. CNN is used as the default model to deal with images and handles images in differen ways however still it follows the general concept of Neural Networks whenever the neurons are made up of learnable weights and biases. Each neuron takes the image pixel as the input and performs a dot product operation so that each element of the same height/width is multiplied with the same weight and they are summed together. CNN works based on the hidden layers and the fully connected layers.
 <div class="ui large rounded images">
-  <img class="ui image" src="../images/CNNpng">
+  <img class="ui image" src="../images/CNN.png">
 </div>
 
 ```javascript
