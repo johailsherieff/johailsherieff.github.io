@@ -12,7 +12,7 @@ labels:
   - MongoDB
   - PIG
   - Spark
-summary: Designed a quailty of life index and ranked cities based on it.
+summary: Developed a system that find quailty of life index and ranked cities based on it.
 ---
 
 <img class="ui medium right floated rounded image" src="../images/numbeno.jpg">
