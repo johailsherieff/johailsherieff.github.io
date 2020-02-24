@@ -15,7 +15,7 @@ labels:
 summary: Developed a system that find quailty of life index and ranked cities based on it.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/numbeno.jpg">
+<img class="ui medium right floated rounded image" src="../images/numbeo.jpg">
 
 Numbeo is the world’s largest database of user contributed data about cities and countries worldwide. Numbeo provides current and timely information on world living conditions including cost of living, housing indicators, health care, traffic, crime and pollution.
 
